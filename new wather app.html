@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The_Wather_App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Product</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <span></span>
+    </nav>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Enter Your Location ">
+            <i class='bx bxs-map'></i>
+            <button class="search-box-button">Search</button>
+        </div>
+        <div class="weather-box">
+            <img src="cloud.png">
+            <div class="temperature"></div>
+            <div class="description"></div>
+        </div>
+        <div class="weather-details">
+            <i class='bx bx-water'></i>
+            <div class="humidity">Humidity: <span></span></div>
+            <i class='bx bx-wind'></i>
+            <div class="wind">Wind: <span></span></div>
+        </div>
+    </div>
+    <script src="weatherapp.js"></script>
+    <script src="sw.js"></script>
+    
+
+    
+</body>
+</html>
